@@ -215,6 +215,14 @@ footer {
   }
 }
 
+.key-hint {
+  display: block;
+  text-align: center;
+  font-size: 13px;
+  color: #888;
+  margin: 4px 0;
+}
+
 .gallery {
   min-height: 200px;
   display: grid;
