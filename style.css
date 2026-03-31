@@ -194,6 +194,16 @@ footer {
   color: #666;
 }
 
+footer a {
+  color: #888;
+  text-decoration: none;
+  margin: 0 4px;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
 @media (max-width: 900px) {
   .layout {
     flex-direction: column;
@@ -677,6 +687,7 @@ footer {
 .category.disabled {
   color: #aaa;
   cursor: not-allowed;
+  pointer-events: none;
 }
 
 nav a,
