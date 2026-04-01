@@ -2,7 +2,7 @@ function showMessage(msg) {
   alert(msg);
 }
 
-const images = ["images/car1.webp", "images/car2.webp"];
+const images = ["car1.jpg", "car2.jpg"];
 let currentIndex = 0;
 
 const slideshow = document.getElementById("slideshow");
